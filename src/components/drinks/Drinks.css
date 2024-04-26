@@ -1,0 +1,51 @@
+
+
+
+.DrinksMenu
+{
+    display: flex;
+    text-align: center;
+    margin: 70px;
+}
+
+
+
+
+  /* Mobile  */
+  @media (width <= 768px)
+
+  {
+      
+    .DrinksMenu
+  {
+    display: block;
+    text-align: center;
+    margin: 30px;
+  }
+  
+  #MiddleDrinks
+  {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  }
+  
+  
+  /* Tablet */
+  @media (width <= 1200px)
+  
+  {
+    .DrinksMenu
+    {
+      display: block;
+      text-align: center;
+      margin: 30px;
+    }
+  
+    
+    #MiddleDrinks
+  {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  }

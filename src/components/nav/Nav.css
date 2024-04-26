@@ -1,0 +1,96 @@
+
+
+
+.Nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 170px;
+    padding: 60px;
+}
+
+.Firstsection img
+{
+    animation: Info 3s .5s ease-in-out infinite;
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+}
+
+
+.Secondsection img
+{
+    animation: Info 3s .5s ease-in-out infinite;
+    opacity: 0;
+}
+
+
+
+.Thirdsection img
+{
+    animation: Info 3s .5s ease-in-out infinite;
+    opacity: 0;
+}
+
+
+@keyframes Info {
+    0%{ 
+        opacity: 1;
+        transform: none;
+    }
+    50%{
+        opacity: .8;
+        transform: scale(.8);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.Firstsection h6
+{
+   font-size: 18px;
+   font-weight: 700;
+}
+
+.Firstsection p
+{
+    font-weight: 500;
+}
+
+.Secondsection h6
+{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Secondsection p
+{
+    font-weight: 500;
+}
+
+.Thirdsection h6
+{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Thirdsection p
+{
+    font-weight: 500;
+}
+
+@media (width <= 768px) 
+{
+    .Nav
+{
+    display: block;
+    align-items: center;
+    text-align: center;
+    gap: 0;
+    padding: 30px;
+}
+}

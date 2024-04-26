@@ -1,0 +1,26 @@
+
+
+.header
+{
+    background: url(src/assets/Hero.png)  no-repeat center center;
+    background-size: 100vw;
+}
+
+
+#link
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media (width <= 768px)
+{
+  .Navbar
+{
+    background-color: whitesmoke;
+}  
+}
+
+
+

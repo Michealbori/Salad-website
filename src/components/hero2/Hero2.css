@@ -1,0 +1,182 @@
+@font-face {
+    font-family: "Wood";
+    src: url(src/assets/Fonts/Eastwood.otf);
+}
+
+
+
+
+.Hero
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.HeroText
+{
+   padding: 20em 50px 0 0;
+}
+
+
+.HeroText p
+{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.HeroText h6 
+{
+    font-size: 45px;
+}
+
+#about 
+{
+    color: #ff9f0d;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: sans-serif;    
+}
+.HeroText span 
+{
+    color: #ff9f0d;
+    font-family: "Wood";
+}
+
+
+
+.buttons
+{
+    display: flex;
+    gap: 100px;
+    padding: 3em 0 0 0;
+    align-items: center;
+
+}
+
+.buttons a 
+{
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.buttons img 
+{
+    background: black;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 50px;
+    animation: Play 3s .5s ease-in-out infinite;
+    opacity: 0;
+}
+
+
+#first
+{
+    background: #ff9f0d;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+}
+
+#second
+{
+    color: #110904;
+}
+
+
+/* #important{
+    animation: food 3s .5s ease-in-out infinite;
+    opacity: 0;
+} */
+
+
+
+@keyframes Play {
+    0%{ 
+        opacity: 1;
+        transform: none;
+    }
+    50%{
+        opacity: .8;
+        transform: scale(.8);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+
+
+@media (width <= 768px)
+{
+    .Hero
+    {
+        display: block;
+    }
+
+    .HeroImg img
+    {
+        width: 100%;
+    }
+
+    .HeroText
+{
+   padding: 10em 30px 0 20px;
+}
+
+
+    .HeroText p
+{
+    font-size: 15px;
+    text-wrap: wrap;
+}
+
+.buttons
+{
+    display: flex;
+    gap: 30px;
+    padding: 3em 0 0 0;
+    align-items: center;
+}
+}
+
+
+
+/* Tablet */
+@media (width <= 1200px)
+
+{
+    .Hero
+    {
+        display: block;
+    }
+
+    .HeroImg img
+    {
+        width: 100%;
+    }
+
+    .HeroText
+{
+   padding: 10em 30px 0 20px;
+}
+
+
+    .HeroText p
+{
+    font-size: 15px;
+    text-wrap: wrap;
+}
+
+.buttons
+{
+    display: flex;
+    gap: 30px;
+    padding: 3em 0 0 0;
+    align-items: center;
+}
+}

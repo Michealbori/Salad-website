@@ -1,0 +1,136 @@
+
+
+
+
+@font-face {
+  font-family: "Ama";
+  src: url(src/assets/Fonts/Amazonica_Juan_Casco.ttf);
+}
+
+.Mealmian
+{
+  display: flex;
+  text-align: center;
+  margin: 70px;
+}
+
+.Mealmian h1
+ {
+    font-family: "Ama";
+    padding: 12px 0;
+}
+
+
+
+ #FoodImg
+ {
+    width: 50%;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+
+
+
+
+#add
+  {
+      animation: Info 3s .5s ease-in-out infinite;
+      opacity: 0;
+  }
+  
+  
+  @keyframes Info {
+      0%{ 
+          opacity: 1;
+          transform: none;
+      }
+      50%{
+          opacity: .8;
+          transform: scale(.8);
+      }
+      100%{
+          opacity: 1;
+          transform: none;
+      }
+  }
+
+
+  #topper
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 420px;
+    text-align: center;
+    margin: 50px 0 0 0;
+  }
+
+
+  /* Mobile  */
+@media (width <= 768px)
+
+{
+    
+.Mealmian
+{
+  display: block;
+  text-align: center;
+  margin: 30px;
+}
+
+#MiddleMeal
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+}
+
+
+/* Tablet */
+@media (width <= 1200px)
+
+{
+  .Mealmian
+  {
+    display: block;
+    text-align: center;
+    margin: 30px;
+  }
+
+  
+#MiddleMeal
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+}

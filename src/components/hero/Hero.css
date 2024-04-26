@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Wood";
+    src: url(src/assets/Fonts/Eastwood.otf);
+}
+@font-face {
+    font-family: "amoera";
+    src: url(src/assets/Fonts/amoera-personal-use-only.otf);
+}
+
+.hero
+{
+    padding: 10em;
+    display: flex;
+    justify-content: center;
+}
+
+.hero_Text 
+{
+    margin: 0 0 40px 0;
+}
+
+.hero_Text h6
+{
+    font-size: 60px;
+    font-family: "Wood";
+}
+
+.hero_Text p
+{
+    font-size: 20px;
+    font-family: "amoera";
+    font-weight: 700;
+}
+
+.hero_img img
+{
+    animation: food 3s .5s ease-in-out infinite;
+    opacity: 0;
+
+}
+
+.hero_Text a
+{
+    text-decoration: none;
+    background: #ff9f0d;
+    color: #fff;
+    padding: 10px 25px 10px 25px;
+    border-radius: 8px;
+}
+
+/* .hero_Text a img
+{
+    animation: food 3s .5s ease-in-out infinite;
+    opacity: 0;
+} */
+
+@keyframes food {
+    0%{ 
+        opacity: 1;
+        transform: none;
+    }
+    50%{
+        opacity: .8;
+        transform: scale(.8);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+@media (width <= 768px) {
+    .hero
+{
+    padding: 20px 0 0 20px;
+    display: block;
+    align-items: center;
+}
+
+
+.hero_img img 
+{
+    width: 100%;
+}
+
+
+.hero_Text h6
+{
+    font-size: 30px;
+}
+
+.hero_Text p
+{
+    font-size: 15px;
+    font-weight: 900;
+}
+}
+
+
+
+/* Tablet */
+@media (width <= 1200px)
+{
+    .hero
+    {
+        padding: 20px 0 0 20px;
+        display: block;
+        align-items: center;
+    }
+    
+
+    .hero_img img 
+{
+    width: 100%;
+}
+
+
+.hero_Text h6
+{
+    font-size: 30px;
+}
+
+.hero_Text p
+{
+    font-size: 15px;
+    font-weight: 900;
+}
+}

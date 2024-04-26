@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "WOOD";
+    src: url(src/assets/Fonts/Eastwood.otf);
+}
+
+@font-face {
+    font-family: "Amazon";
+    src: url(src/assets/Fonts/Amazonica_Juan_Casco.ttf);
+}
+
+.SignUp
+{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin: 3em 40px 0 40px;
+    padding: 200px 0 120px 0;
+    background: #fff;
+    border-radius: 10px;
+}
+
+
+
+body
+{
+       background: #ff9f0d; 
+}
+
+.firstLoginSection h5  
+{
+    font-family: "WOOD";
+    margin: 1em 0 0 0;
+    font-size: 55px;
+}
+
+.secondLoginSection  form
+{
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    gap: 18px;
+
+}
+
+    .secondLoginSection  form input 
+    {
+        padding: 10px;
+        width: 400px;
+        border-radius: 5px;
+        font-family: 'sans-serif';
+        font-weight: 700;
+        /* border: none; */
+    }
+
+    .secondLoginSection  form input:focus
+    {
+       outline: none;
+    }
+
+
+.secondLoginSection  form input::placeholder
+{
+    font-family: "Amazon";
+    font-style: italic;
+    font-weight: 700;
+}
+
+.secondLoginSection  form button
+{
+    border: none;
+    color: #fff;
+    padding: 13px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    background: rgb(7, 128, 7);
+}
+
+
+
+@media ( width <= 768px ) {
+    .SignUp
+    {
+        display: block;
+    }
+
+    
+.firstLoginSection h5  
+{
+    font-family: "WOOD";
+    margin: 10px 0 0 0;
+    font-size: 25px;
+}
+
+
+.secondLoginSection  form input 
+{
+    width: 100%;
+}
+
+}

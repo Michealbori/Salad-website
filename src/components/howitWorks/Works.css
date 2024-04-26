@@ -1,0 +1,58 @@
+
+.work h5
+{
+   text-align: center;
+   font-size: 40px;
+   font-weight: 700;
+   font-family: sans-serif;
+   padding: 90px 0 0 0;
+}
+
+.work pre
+{
+    text-align: center;
+    font-weight: 900;
+    text-wrap: wrap;
+}
+
+
+.work p
+{
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.HowWork
+{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    text-align: center;
+    align-items: center;
+    padding: 60px 30px 0 30px;
+}
+
+
+
+@media (width <= 768px) 
+{
+    .HowWork
+    {
+        display: block;
+        text-align: center;
+        align-items: center;
+        gap: 0;
+        padding: 40px 15px 0 15px;
+    }
+
+    .work p
+{
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.work h5
+{
+    padding: 90px 0 0 0;
+}
+}
